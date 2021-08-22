@@ -1,0 +1,240 @@
+*{
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+}
+header{
+  
+    position: relative;
+    background-color:#FFD8DB;
+    height: 200px;
+    
+}
+
+html{
+    min-height: 100vh;
+    background-image: url(imges/background.jpg);
+    background-position:bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+    
+ 
+}
+
+    header img{
+    height:150px ;
+    width: 200px;
+    margin-left: 110px;
+    margin-top: 20px;
+    position: absolute;
+    
+   
+   
+    
+    
+}
+
+
+ .larose{
+  
+  position: absolute; top: 50px;left: 700px;color:black;
+  font-weight:bold;
+   
+}
+ .slogan{
+    position: absolute;top: 150px;left: 550px;
+    color:black;
+    font-weight: bold;
+}
+nav{
+    
+    height: 48px;
+   position: relative;
+ 
+}
+.main-nav{
+    list-style: none;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 100%;
+   
+
+}
+.main-nav li{
+float: left; background-color: #000000;
+
+
+}
+.main-nav li a{
+    display: block;
+    width: 250px;
+    height: 48px;
+    border-right: solid 3px #f898a0;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color:#f898a0;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.main-nav li a:hover{
+    color: white;
+    background-color:#ff6471;
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    
+}
+.list img{
+
+    width: 300px;
+    height:300px;
+  margin: 20px;
+  border-radius: 10px;
+
+}
+.order{
+    background-color:#f898a0;
+    border-radius: 5px;
+    border: #f898a0 solid 5px;
+    color: black;
+    height: 575px;
+    width: 400px;
+    margin: 5px;
+    text-align: center;
+    
+    
+}
+.order:hover{
+    background-color: #ff6471;
+    color: white;
+    scale: 2px,2px;
+}
+.before{
+    text-decoration:line-through ;color: red;
+}
+.after{
+    color: green;
+}
+.car{
+    text-decoration:none ;
+    color: white;
+    font-size: 25px;
+   
+}
+.car:hover{
+
+    color: black;
+}
+button{
+border: black solid 2px;
+background-color: white;
+width: 100px;
+height: 50px;
+color:#ff828c ;
+margin-top: 10px;
+border-radius: 20px;
+font-size: 20px;
+
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+.lastsection{
+display:flex;
+width: 100%;
+color: white;
+position: relative;
+
+}
+
+.offer{
+    background-color:black;
+    border-radius: 20px;
+    border: #f898a0 solid 5px;
+    color: #f898a0;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    
+}
+.offer img{
+ width: 400px;
+ height: 400px;
+ margin-left: 50px;
+ border-radius: 20px;
+ margin-bottom: 10px;
+
+}
+.offer2 h1{
+
+    position: absolute; 
+    color: white;
+   margin-top: 300px;
+   margin-left: 100px;margin-right: 100px;
+   text-align: center; font-style: italic;
+}
+footer{
+
+    background-color: #FFD8DB;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 10px;
+   
+}
+.footer{
+text-decoration: none;
+list-style: none;
+}
+.footer li{
+
+    float: left;
+
+}
+.footer li a{
+
+    display: block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.footer li a:hover{
+
+    color: #ff6471;
+}
+i{
+
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 5px;margin-right: 5px;
+    color: #ff6471;
+    
+    
+}
+p{
+    font-weight: bold;
+    margin-right:10px;
+    margin-top:10px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
